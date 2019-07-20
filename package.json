@@ -1,0 +1,28 @@
+{
+  "name": "NBAStatsDB",
+  "version": "1.0.0",
+  "description": "database for a future project creating custom stats",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/po1sigala/NBAStatsDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/po1sigala/NBAStatsDB/issues"
+  },
+  "homepage": "https://github.com/po1sigala/NBAStatsDB#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4",
+    "morgan": "^1.9.1"
+  }
+}
